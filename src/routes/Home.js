@@ -20,6 +20,7 @@ function Home() {
 
   return (
     <div class={styles.container}>
+      <div>movie list</div>
       {loading ? (
         <h1 class={styles.load}>LOADGING...</h1>
       ) : (
